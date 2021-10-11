@@ -12,8 +12,9 @@ import java.util.Scanner;
 
 /**
  * Exercise 42.
- *
  * Reads data from file and displays it as a table.
+ * Prints an error if the input file is not properly
+ * located. Methods are properly named for clarity.
  */
 
 public class App {
