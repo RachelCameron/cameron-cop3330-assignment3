@@ -30,7 +30,7 @@ public class App {
             String keyword = "utilize";
             String replace = "use";
 
-            replaceWord(sentence, keyword, replace);
+            sentence = replaceWord(sentence, keyword, replace);
             System.out.println("\nAltered text:");
             print(sentence);
         } catch (FileNotFoundException e) {
@@ -44,13 +44,17 @@ public class App {
         }
     }
 
-    public static void replaceWord(ArrayList<String> list, String word, String replacement)  {
+    public static ArrayList<String> replaceWord(ArrayList<String> list, String word, String replacement)  {
+
         for (int i = 0; i < list.size() - 1; i++) {
             String current = list.get(i);
             if (current.equals(word))  {
                 list.set(i, replacement);
             }
         }
+
+        return(list);
+
     }
 
     public static ArrayList<String> readListFromFile(String filename) throws FileNotFoundException {
