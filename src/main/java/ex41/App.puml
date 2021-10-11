@@ -1,0 +1,8 @@
+@startuml
+class App {
++{static} main()
++{static} print(ArrayList<String> list)
++{static} sortList(ArrayList<String> list)
++readListFromFile(String filename): result
+}
+@enduml
