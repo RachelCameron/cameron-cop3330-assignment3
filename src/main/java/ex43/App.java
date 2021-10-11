@@ -75,8 +75,7 @@ public class App {
 
     }
 
-    public static String generateWebsite(String siteName, String author,
-                                         boolean js, boolean css)  {
+    public static String generateWebsite(String siteName, String author, boolean js, boolean css)  {
         String parentFolder = "website";
         String innerFolder = parentFolder + "/" + siteName;
 
