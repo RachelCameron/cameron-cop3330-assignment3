@@ -12,9 +12,11 @@ import java.util.Scanner;
 
 /**
  * Exercise 45.
- *
- * Reads text from a text file and
- * replace all cases of the word "utilize" with the word "use".
+ * Reads text from a text file and replace
+ * all cases of the word "utilize" with the
+ * word "use". Prints an error if the input
+ * file is not properly located. Methods are
+ * properly named for clarity.
  */
 
 public class App {
