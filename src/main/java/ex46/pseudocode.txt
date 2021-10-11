@@ -1,0 +1,12 @@
+/**
+ * Exercise 46.
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * Prints an error if the input file is not properly
+ * located. Methods are properly named for clarity.
+ */
