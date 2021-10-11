@@ -12,9 +12,10 @@ import java.util.Scanner;
 
 /**
  * Exercise 41.
- *
  * Reads the list of names from a text file and
- * sorts the list alphabetically.
+ * sorts the list alphabetically. Prints an error
+ * if the input file is not properly located.
+ * Methods are properly named for clarity.
  */
 
 public class App {
@@ -34,22 +35,22 @@ public class App {
         }
     }
 
-    public static void print(ArrayList<String> list)  {
-        for (String s: list)  {
+    public static void print(ArrayList<String> list) {
+        for (String s : list) {
             System.out.println(s);
         }
     }
 
-    public static void sortList(ArrayList<String> list)  {
+    public static void sortList(ArrayList<String> list) {
         boolean isSorted;
-        do  {
+        do {
             isSorted = true;
 
             for (int i = 0; i < list.size() - 1; i++) {
                 String current = list.get(i);
                 String next = list.get(i + 1);
 
-                if (next.compareTo(current) < 0)  {
+                if (next.compareTo(current) < 0) {
                     list.set(i, next);
                     list.set(i + 1, current);
 
@@ -63,7 +64,7 @@ public class App {
         ArrayList<String> result = new ArrayList<>();
 
         Scanner input = new Scanner(new File(filename));
-        while (input.hasNextLine())  {
+        while (input.hasNextLine()) {
             result.add(input.nextLine());
         }
         input.close();
