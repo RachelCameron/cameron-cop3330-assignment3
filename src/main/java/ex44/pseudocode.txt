@@ -1,0 +1,13 @@
+/**
+ * Exercise 44.
+ * Prompts user to enter the product name.
+ * Checks to see if the product is in inventory.
+ * If the item is in inventory, prints the product
+ * name, grabs the corresponding price, prints
+ * the product price, grabs the corresponding quantity,
+ * prices the product quantity. If the item cannot be
+ * found, tells user the item is not in inventory
+ * then prompts for a new product name repeatedly.
+ * Prints an error if the input file is not properly
+ * located. Methods are properly named for clarity.
+ */
