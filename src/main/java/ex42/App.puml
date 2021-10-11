@@ -1,0 +1,17 @@
+@startuml
+class App {
++{static} main()
++{static} Person personFromRecord(String record): Person(data[1], data[0], Double.parseDouble(data[2]))
++{static} getRecords(String filename): people
++{static} printTable(ArrayList<Person> people)
+}
+class Person {
++Person(String first, String last, double salary)
++getFirst(): first
++setFirst(String first)
++getLast(): last
++setLast(String last)
++getSalary(): salary
++setSalary(double salary)
+}
+@enduml
