@@ -1,0 +1,7 @@
+/**
+ * Exercise 41.
+ * Reads the list of names from a text file and
+ * sorts the list alphabetically. Prints an error
+ * if the input file is not properly located.
+ * Methods are properly named for clarity.
+ */
