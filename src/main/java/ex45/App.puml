@@ -1,0 +1,8 @@
+@startuml
+class App {
++{static} main()
++{static} print(ArrayList<String> list)
++{static} replaceWord(ArrayList<String> list, String word, String replacement): list
++{static} readListFromFile(String filename): result
+}
+@enduml
