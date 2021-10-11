@@ -1,0 +1,10 @@
+@startuml
+class App {
++{static} main()
++{static} getInput(String prompt): input.nextLine()
++{static} generateWebsite(): website
++{static} createDirectory(String name): dir.mkdir()
++{static} createHtml(String content, String filename)
++{static} generateWebsite(String siteName, String author, boolean js, boolean css): content
+}
+@enduml
