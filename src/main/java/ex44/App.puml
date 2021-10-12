@@ -1,0 +1,14 @@
+@startuml
+class App {
++{static} main()
++{static} getProduct(String prompt): input.nextLine()
++{static} setProduct(String Product)
++{static} getPrice(): price
++{static} setPrice(Double Price)
++{static} getQuantity(): quantity
++{static} setQuantity(Int Quantity)
++{static} checkInventory()
++{static} readListFromFile(String filename): result
++{static} getProductInfo(): String[]
+}
+@enduml
